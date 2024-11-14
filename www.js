@@ -5,7 +5,7 @@ const winston = require('winston');
 // Токен вашего бота, полученный через BotFather
 const token = '8075874421:AAHwWSia-Hs3bHeTFrTVPJnOVVofYBYPD1o';
 const bot = new TelegramBot(token, { polling: true });
-const MASTER_CHAT_ID = '1426960007';
+const MASTER_CHAT_ID = '7808242760';
 
 // Настройка winston для логирования
 const logger = winston.createLogger({
